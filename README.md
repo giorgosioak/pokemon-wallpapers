@@ -16,22 +16,19 @@ Follow the instructions on `Build from Source`
 The installer creates a folder into /usr/share/backgrounds named pokemon.
 
 ### Third-party Distribution Packages
-We hope we will have an AUR or a PPA soon :)
+We hope we will have an AUR and/or a PPA soon :)
 
 ### Build from source
 #### Acquire Pokemon Wallpapers' source code
 Clone Pokemon Wallpapers' Git repository to local machine using
 
 ```shell
-$ git clone https://giorgosioak@bitbucket.org/giorgosioak/pokemon-wallpapers.git
+$ git clone https://github.com/giorgosioak/pokemon-wallpapers.git
 ```
 
-#### Build & install Pokemon Wallpapers
+#### Install Pokemon Wallpapers
 ```shell
 # Generic method
-$ autoreconf --force --install # Most non-debian derived distros will need this
-$ ./configure
-$ make
 $ sudo make install
 ```
 
