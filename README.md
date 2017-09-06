@@ -2,6 +2,11 @@
 
 _A set of pokemon wallpapers for the Linux desktop made by Teej/TopHat._
 
+### Features
+* Full HD Wallpapers 1920 × 1080 pixels
+* Almost 700 different wallpapers
+* Uses /usr/share/backgrounds for multiple user access on the same computer.
+
 ![XFCE's Background Picker ](http://i.imgur.com/HmElSzT.png)
 
 ## How to Install
