@@ -24,7 +24,7 @@ $ git clone https://giorgosioak@bitbucket.org/giorgosioak/pokemon-wallpapers.git
 #### Build & install Pokemon Wallpapers
 ```shell
 # Generic method
-$  # Most non-debian derived distros will need this
+$ autoreconf --force --install # Most non-debian derived distros will need this
 $ ./configure
 $ make
 $ sudo make install
