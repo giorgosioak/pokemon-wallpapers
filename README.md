@@ -4,7 +4,7 @@ _A set of pokemon wallpapers for the Linux desktop made by Teej/TopHat._
 
 ![XFCE's Background Picker ](http://i.imgur.com/HmElSzT.png)
 
-## Installation
+## How to Install
 
 Follow the instructions on `Build from Source`
 
@@ -31,4 +31,8 @@ $ sudo make install
 ```
 
 ## License
- Pokemon Wallpapers is distributed under the [GPL license](https://www.gnu.org/licenses/gpl-3.0.en.html).
+* Pokemon Wallpapers is distributed under the [GPL license](https://www.gnu.org/licenses/gpl-3.0.en.html).
+* Nearly all images distributed here-in are subject to the Copyright established [here](https://pldh.net/basics/credits#pldh_copyright).
+
+## Notes & Credits
+* Nearly all of the Pokemon backgrounds were created by Teej/TopHat. [[1]](https://pldh.net/gallery/the493) , [[2]](https://pldh.net/gallery/unovacollection)
