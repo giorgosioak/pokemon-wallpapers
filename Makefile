@@ -19,7 +19,7 @@ install:
 		cp -r pokemon/ /usr/share/backgrounds/; \
 		echo "Pokemon Wallpapers has been installed succefully"; \
 	else \
-		echo "cannot install Pokemon Wallpapers': Permission denied"; \
+		echo "cannot install Pokemon Wallpapers: Permission denied"; \
 	fi
 
 unistall:
@@ -29,5 +29,5 @@ unistall:
 		rm -rf /usr/share/backgrounds/pokemon/; \
 		echo "Pokemon Wallpapers has been uninstalled succefully"; \
 	else \
-		echo "cannot install Pokemon Wallpapers': Permission denied"; \
+		echo "cannot uninstall Pokemon Wallpapers: Permission denied"; \
 	fi
