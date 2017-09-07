@@ -17,6 +17,7 @@ The installer creates a folder into /usr/share/backgrounds named pokemon.
 
 ### Third-party Distribution Packages
 We hope we will have an AUR and/or a PPA soon :)
+![](https://aur.archlinux.org/packages/pokemon-wallpapers)
 
 ### Build from source
 #### Acquire Pokemon Wallpapers' source code
@@ -38,3 +39,4 @@ $ sudo make install
 
 ## Notes & Credits
 * Nearly all of the Pokemon backgrounds were created by Teej/TopHat. [[1]](https://pldh.net/gallery/the493) , [[2]](https://pldh.net/gallery/unovacollection)
+* Thanks to [@AWildBeard](https://github.com/AWildBeard) for improving the installation script in Makefile.
