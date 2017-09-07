@@ -15,19 +15,24 @@ all:
 install:
 	
 	if [ '$(WHOAMI)' = 'root' ] ; then \
-		echo "About to install Pokemon Wallpapers"; \
-		cp -r pokemon/ /usr/share/backgrounds/; \
-		echo "Pokemon Wallpapers has been installed succefully"; \
+		echo "Installing Pokemon Wallpapers"; \
+		mkdir -pm755 /usr/share/backgrounds/pokemon/; \
+		for i in pokemon/* ; \
+		do \
+				echo "installing $$i"; \
+				install -Dm755 "$$i" "/usr/share/backgrounds/$$i"; \
+		done; \
+		echo "Pokemon Wallpapers have been installed succefully"; \
 	else \
-		echo "cannot install Pokemon Wallpapers: Permission denied"; \
+		echo "Cannot install Pokemon Wallpapers: Permission denied"; \
 	fi
 
-unistall:
+uninstall:
 
 	if [ '$(WHOAMI)' = 'root' ] ; then \
-		echo "About to uninstall Pokemon Wallpapers"; \
+		echo "Uninstalling Pokemon Wallpapers"; \
 		rm -rf /usr/share/backgrounds/pokemon/; \
-		echo "Pokemon Wallpapers has been uninstalled succefully"; \
+		echo "Pokemon Wallpapers have been uninstalled succefully"; \
 	else \
-		echo "cannot uninstall Pokemon Wallpapers: Permission denied"; \
+		echo "Cannot uninstall Pokemon Wallpapers: Permission denied"; \
 	fi
