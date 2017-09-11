@@ -16,8 +16,10 @@ Follow the instructions on `Build from Source`
 The installer creates a folder into /usr/share/backgrounds named pokemon.
 
 ### Third-party Distribution Packages
-We hope we will have an AUR and/or a PPA soon :)
-![](https://aur.archlinux.org/packages/pokemon-wallpapers)
+
+Note that we are not responsible for these packages
+
+* [Arch Linux](https://aur.archlinux.org/packages/pokemon-wallpapers/)
 
 ### Build from source
 #### Acquire Pokemon Wallpapers' source code
