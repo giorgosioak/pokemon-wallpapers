@@ -19,7 +19,10 @@ The installer creates a folder into /usr/share/backgrounds named pokemon.
 
 Note that we are not responsible for these packages
 
-* [Arch Linux](https://aur.archlinux.org/packages/pokemon-wallpapers/)
+* #### Arch Linux https://aur.archlinux.org/packages/pokemon-wallpapers/
+  ```shell
+  $ yaourt -S pokemon-wallpapers
+  ```
 
 ### Build from source
 #### Acquire Pokemon Wallpapers' source code
